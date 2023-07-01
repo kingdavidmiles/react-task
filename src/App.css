@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.search-input {
+  width: 100%; /* Full width on all screen sizes */
+}
+
+@media (min-width: 992px) {
+  .search-input {
+    height: 50px;
+    width: 80%; /* 75% width on large screens (>= 992px) */
+    max-width: 600px; /* Limit the maximum width on large screens if desired */
   }
 }
